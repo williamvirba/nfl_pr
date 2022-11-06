@@ -93,7 +93,7 @@ for i in dfyruq:
     
                 objwp[str(i)].append(pr)
             
-objwp
+#objwp
 
 #qbjs=qbj.sort_values(qbj.columns[0],ascending=False) # nefunguje nedefinované iba ako upravena kopia
 
@@ -106,14 +106,14 @@ objwp
 qbjw = pd.DataFrame.from_dict(objwp, orient='index',columns=wk)
 qbjw=qbjw.sort_values(qbjw.columns[0],ascending=False)
 #qbjw.fillna(0).values.mean(axis=1)
-qbjw
+#qbjw
 
 
 # In[197]:
 
 
 qbjwt=qbjw.T
-qbjwt
+#qbjwt
 
 
 # In[116]:
@@ -144,7 +144,7 @@ figs = px.line(qbjwt)
 figs.update_traces(visible="legendonly")
 figs.data[0].visible=True
 figs.data[1].visible=True
-figs
+#figs
 
 
 # In[205]:
