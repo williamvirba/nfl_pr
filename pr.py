@@ -140,7 +140,8 @@ qbp = ax.plot(qbjwt)
 # In[204]:
 
 
-figs = px.line(qbjwt)
+figs = px.line(qbjwt).update_layout(
+    xaxis_title="week", yaxis_title="passer rating")
 figs.update_traces(visible="legendonly")
 figs.data[0].visible=True
 figs.data[1].visible=True
