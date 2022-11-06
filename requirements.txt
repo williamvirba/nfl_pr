@@ -3,4 +3,4 @@ gpxcsv == 0.2.15
 matplotlib == 3.5.2
 haversine ==2.6.0
 tilemapbase == 0.4.7
-nflpy == 0.3.0
+nfl_data_py == 0.3.0
