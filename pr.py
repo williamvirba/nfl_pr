@@ -131,7 +131,7 @@ qbp = qbjw10.plot(kind="line")
 # In[177]:
 
 
-fig, ax = plt.subplots(figsize=(19, 16))
+fig, ax = plt.subplots(figsize=(15, 20))
 ax.set_ylim([0, 158.3])
 ax.set_title('Passer rating of passers')
 qbp = ax.plot(qbjwt)
