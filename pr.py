@@ -150,5 +150,5 @@ figs.data[1].visible=True
 # In[205]:
 
 
-st.show(figs)
+st.write(figs)
 
