@@ -4,9 +4,9 @@
 # In[207]:
 
 
-get_ipython().system(' pip install nfl_data_py')
-get_ipython().system(' pip install plotly.express')
-get_ipython().system(' pip install streamlit')
+get_ipython().system('pip install nfl_data_py')
+get_ipython().system('pip install plotly.express')
+get_ipython().system('pip install streamlit')
 
 
 # In[206]:
